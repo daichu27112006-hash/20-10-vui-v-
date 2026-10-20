@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gửi em — 20/10 thật rực rỡ 🌷</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap');
+:root{--pink:#ff4f91;--rose:#ff8eb5;--cream:#fff8f4;--purple:#8b5cf6;--ink:#4b2440}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:'Be Vietnam Pro',sans-serif;color:var(--ink);background:#fff7fb;overflow-x:hidden}
+button{font:inherit;cursor:pointer}
+.bg-glow{position:fixed;inset:0;z-index:-2;background:radial-gradient(circle at 12% 12%,#ffe0ed 0,transparent 32%),radial-gradient(circle at 90% 25%,#e9ddff 0,transparent 30%),radial-gradient(circle at 55% 100%,#fff0c9 0,transparent 35%),#fff8fb}
+.sparkles{position:fixed;inset:0;pointer-events:none;z-index:4;overflow:hidden}
+.sparkle{position:absolute;animation:floatUp linear infinite;opacity:.6}
+@keyframes floatUp{from{transform:translateY(110vh) rotate(0deg);opacity:0}15%{opacity:.75}to{transform:translateY(-15vh) rotate(320deg);opacity:0}}
+nav{display:flex;justify-content:space-between;align-items:center;max-width:1120px;margin:auto;padding:22px 24px}
+.logo{font-weight:800;color:#e33d80;letter-spacing:.3px}.logo span{font-size:1.3rem}
+.nav-pill{border:1px solid #ffd1e2;background:#ffffffb8;padding:10px 16px;border-radius:30px;font-size:.82rem;color:#a23a6b}
+.hero{max-width:1120px;margin:0 auto;padding:48px 24px 90px;min-height:calc(100vh - 75px);display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:35px}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid #ffd5e5;border-radius:50px;padding:9px 14px;color:#cf3979;font-size:.8rem;font-weight:700;box-shadow:0 8px 25px #e85d9414}
+h1{font-family:'Playfair Display',serif;font-size:clamp(3.2rem,6.7vw,6.2rem);line-height:1.02;letter-spacing:-2px;margin:23px 0 20px;color:#5c244b}
+h1 em{font-weight:600;color:#f0448a}
+.lead{font-size:1.06rem;line-height:1.9;color:#805a73;max-width:510px}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.btn{border:0;border-radius:15px;padding:14px 20px;font-weight:700;transition:.25s;display:inline-flex;align-items:center;gap:9px}
+.btn:hover{transform:translateY(-3px)}
+.primary{color:white;background:linear-gradient(135deg,#ff5799,#e83d8a);box-shadow:0 12px 25px #ef4a902e}
+.secondary{background:#fff;border:1px solid #f6ccdf;color:#a23a6b}
+.tiny-note{margin-top:18px;color:#b38aa2;font-size:.78rem}
+.art-wrap{position:relative;min-height:530px;display:grid;place-items:center}
+.orbit{position:absolute;width:min(440px,95%);aspect-ratio:1;border:1px dashed #f3a8ca;border-radius:50%;animation:spin 40s linear infinite}
+.orbit:before,.orbit:after{content:'✦';position:absolute;color:#ff83b6;font-size:22px}.orbit:before{top:15%;left:12%}.orbit:after{right:7%;bottom:23%}
+@keyframes spin{to{transform:rotate(360deg)}}
+.flower-card{width:min(390px,88%);aspect-ratio: .83;border-radius:190px 190px 35px 35px;background:linear-gradient(160deg,#ffd4e4,#f7a6c8 55%,#cba5fa);box-shadow:0 35px 80px #bd57903a;position:relative;display:grid;place-items:center;overflow:hidden;transform:rotate(2deg)}
+.flower-card:before{content:'';position:absolute;inset:13px;border:1px solid #ffffff91;border-radius:180px 180px 28px 28px}
+.bouquet{position:relative;width:100%;height:100%;display:grid;place-items:center}
+.flower{position:absolute;font-size:clamp(4rem,8vw,6.6rem);filter:drop-shadow(0 10px 6px #8c3e4c2a);animation:bob 4s ease-in-out infinite;transform-origin:bottom center}
+.f1{top:12%;left:29%;animation-delay:-.4s}.f2{top:24%;left:9%;animation-delay:-1.1s}.f3{top:21%;right:9%;animation-delay:-2s}.f4{top:39%;left:22%;animation-delay:-.7s}.f5{top:38%;right:20%;animation-delay:-1.7s}.f6{top:7%;right:34%;animation-delay:-2.4s}
+@keyframes bob{0%,100%{translate:0 0;rotate:-3deg}50%{translate:0 -9px;rotate:3deg}}
+.stem{position:absolute;top:47%;left:50%;width:5px;height:31%;background:linear-gradient(#398d60,#216747);border-radius:10px;transform:rotate(7deg)}
+.leaf{position:absolute;width:65px;height:29px;background:linear-gradient(130deg,#5fc88b,#238653);border-radius:100% 0 100% 0;top:62%;left:37%;transform:rotate(15deg)}
+.leaf.two{top:69%;left:50%;transform:scaleX(-1) rotate(12deg)}
+.wrap-paper{position:absolute;bottom:-2%;left:20%;width:60%;height:36%;background:linear-gradient(130deg,#fff3cc,#ffd1e3 55%,#fff4fa);clip-path:polygon(8% 0,92% 0,100% 100%,50% 79%,0 100%);filter:drop-shadow(0 8px 6px #80385a2c)}
+.ribbon{position:absolute;bottom:19%;left:43%;width:55px;height:42px;border:9px solid #e43f83;border-radius:50% 50% 50% 10%;transform:rotate(20deg);z-index:2}
+.ribbon:after{content:'';position:absolute;left:15px;top:-6px;width:40px;height:34px;border:9px solid #e43f83;border-radius:50% 50% 10% 50%;transform:rotate(-40deg)}
+.floating-tag{position:absolute;background:#fffdfd;padding:13px 17px;border-radius:16px;box-shadow:0 12px 30px #9c49751c;font-size:.83rem;font-weight:700;z-index:2}
+.tag-one{top:13%;right:0;transform:rotate(6deg)}.tag-two{bottom:12%;left:0;transform:rotate(-7deg)}
+.tag-one span,.tag-two span{font-size:1.3rem;margin-right:5px}
+.section{padding:82px 24px}
+.section-inner{max-width:1040px;margin:auto}
+.section-kicker{text-align:center;text-transform:uppercase;letter-spacing:2px;font-size:.75rem;font-weight:800;color:#e14b8a}
+h2{font-family:'Playfair Display',serif;text-align:center;font-size:clamp(2.2rem,4vw,3.7rem);line-height:1.15;margin:12px 0 18px;color:#5c244b}
+.section-desc{text-align:center;max-width:650px;margin:0 auto 42px;line-height:1.85;color:#8a6680}
+.reason-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.reason{background:#ffffffc9;border:1px solid #f8d7e5;border-radius:24px;padding:27px 23px;box-shadow:0 12px 35px #9c49750a;transition:.25s}
+.reason:hover{transform:translateY(-6px);box-shadow:0 18px 38px #9c497518}
+.reason .emoji{width:54px;height:54px;border-radius:17px;display:grid;place-items:center;background:#fff0f6;font-size:1.7rem;margin-bottom:16px}
+.reason h3{margin:0 0 9px;font-size:1.05rem}.reason p{margin:0;color:#8a6680;font-size:.9rem;line-height:1.8}
+.letter-section{background:linear-gradient(135deg,#fff0f6d9,#f3edffdc);border-top:1px solid #ffe0ed;border-bottom:1px solid #ffe0ed}
+.letter{max-width:760px;margin:auto;padding:clamp(25px,5vw,55px);background:#fffdfd;border:1px solid #f6d7e5;border-radius:30px;box-shadow:0 25px 70px #9e4e7d12;position:relative}
+.letter:before{content:'“';position:absolute;right:27px;top:2px;font-family:Georgia,serif;font-size:7rem;color:#ffe0ec;line-height:1}
+.letter p{font-family:'Playfair Display',serif;font-size:1.15rem;line-height:2;color:#76516c;position:relative}
+.letter .sign{font-family:'Playfair Display',serif;font-style:italic;color:#e7438a;font-size:1.6rem;text-align:right;margin-top:28px}
+.secret{display:none;margin-top:22px;padding:20px;background:#fff3f8;border-radius:18px;line-height:1.9;color:#8b416b;animation:appear .5s ease}
+.secret.show{display:block}
+@keyframes appear{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.final{text-align:center;padding:90px 24px 105px}
+.big-heart{font-size:3.3rem;display:inline-block;animation:heart 1.5s ease-in-out infinite}
+@keyframes heart{0%,100%{transform:scale(1)}50%{transform:scale(1.15)}}
+.final h2{margin-top:12px}
+.final p{color:#8a6680;line-height:1.8}
+footer{text-align:center;padding:25px;color:#b38aa2;font-size:.78rem;border-top:1px solid #f7dfeb}
+.toast{position:fixed;bottom:25px;left:50%;transform:translate(-50%,20px);background:#5c244b;color:#fff;padding:13px 20px;border-radius:14px;box-shadow:0 12px 30px #4b244044;opacity:0;pointer-events:none;transition:.3s;z-index:10;font-size:.9rem;max-width:90%;text-align:center}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:25px;gap:5px}.hero-copy{text-align:center}.lead{margin:auto}.actions{justify-content:center}.art-wrap{min-height:440px}.flower-card{width:min(320px,78%)}.orbit{width:min(350px,95%)}.reason-grid{grid-template-columns:1fr}.section{padding:65px 20px}.tag-one{right:1%}.tag-two{left:1%}h1{letter-spacing:-1.5px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="bg-glow"></div><div class="sparkles" id="sparkles"></div>
+<nav><div class="logo"><span>🌷</span> GỬI EM, YÊU THƯƠNG</div><div class="nav-pill">20.10 · Ngày của em ✨</div></nav>
+<main>
+<section class="hero">
+ <div class="hero-copy">
+  <div class="eyebrow">💌 MỘT MÓN QUÀ NHỎ DÀNH RIÊNG CHO EM</div>
+  <h1>Thế giới của anh<br><em>nở hoa vì em.</em></h1>
+  <p class="lead">Nếu lời yêu thương có thể hóa thành hoa, anh sẽ tặng em cả một khu vườn — vì em xứng đáng với những điều dịu dàng và rực rỡ nhất.</p>
+  <div class="actions"><button class="btn primary" onclick="document.querySelector('#loichuc').scrollIntoView({behavior:'smooth'})">💗 Đọc lời anh muốn nói</button><button class="btn secondary" onclick="bloom()">✨ Gửi em phép màu</button></div>
+  <div class="tiny-note">Một bó hoa online, nhưng tình cảm là thật. ♡</div>
+ </div>
+ <div class="art-wrap">
+  <div class="orbit"></div>
+  <div class="floating-tag tag-one"><span>💖</span> Em là điều đặc biệt</div>
+  <div class="floating-tag tag-two"><span>🌸</span> Dành riêng cho em</div>
+  <div class="flower-card"><div class="bouquet">
+   <div class="flower f1">🌹</div><div class="flower f2">🌷</div><div class="flower f3">🌺</div><div class="flower f4">🌸</div><div class="flower f5">🌷</div><div class="flower f6">🌼</div>
+   <div class="stem"></div><div class="leaf"></div><div class="leaf two"></div><div class="wrap-paper"></div><div class="ribbon"></div>
+  </div></div>
+ </div>
+</section>
+<section class="section">
+ <div class="section-inner"><div class="section-kicker">Điều anh trân trọng ở em</div><h2>Em làm những ngày bình thường<br>trở nên đáng nhớ</h2><p class="section-desc">Không cần một dịp đặc biệt anh mới yêu thương em. Nhưng hôm nay, anh muốn nhắc em nhớ rằng em quan trọng với anh đến nhường nào.</p>
+ <div class="reason-grid">
+  <article class="reason"><div class="emoji">🌻</div><h3>Nụ cười của em</h3><p>Chỉ cần thấy em vui, một ngày mệt mỏi của anh cũng tự nhiên nhẹ nhàng hơn.</p></article>
+  <article class="reason"><div class="emoji">🫶</div><h3>Sự dịu dàng của em</h3><p>Cảm ơn em vì đã xuất hiện, lắng nghe và cho anh cơ hội được quan tâm em.</p></article>
+  <article class="reason"><div class="emoji">🌈</div><h3>Những ngày phía trước</h3><p>Anh mong chúng mình sẽ cùng tạo thêm thật nhiều kỷ niệm đẹp, từ những điều nhỏ xíu.</p></article>
+ </div></div>
+</section>
+<section class="section letter-section" id="loichuc">
+ <div class="section-inner"><div class="section-kicker">20 tháng 10 · Gửi người anh thương</div><h2>Điều anh muốn nói với em</h2><p class="section-desc">Dành một chút thời gian, mở lá thư nhỏ này nhé. 💌</p>
+  <div class="letter">
+   <p>Chúc cô gái của anh ngày 20/10 thật vui vẻ, luôn xinh đẹp, mạnh mẽ và rạng rỡ theo cách riêng của mình. Mong em luôn được yêu thương, được trân trọng và có đủ dũng khí để theo đuổi mọi điều em mơ ước.</p>
+   <p>Anh không hứa ngày nào cũng hoàn hảo, nhưng anh muốn học cách yêu em tốt hơn mỗi ngày — biết lắng nghe hơn, quan tâm hơn và ở bên em cả những lúc em chẳng vui.</p>
+   <p>Cảm ơn em vì đã là em, vì đã đến bên anh và khiến cuộc sống của anh có thêm nhiều điều đáng mong chờ. Mong bó hoa nhỏ này thay anh ôm em một cái thật lâu. 💗</p>
+   <div class="sign">Thương em thật nhiều ♡</div>
+   <div style="text-align:center;margin-top:25px"><button class="btn primary" onclick="toggleSecret()">💌 Còn một điều bí mật…</button></div>
+   <div class="secret" id="secret">Bí mật nè: trong tất cả những điều đẹp đẽ anh có thể chọn hôm nay, anh vẫn chọn dành thời gian để làm em mỉm cười. Chúc mừng ngày 20/10, bé yêu! 🌷✨</div>
+  </div>
+ </div>
+</section>
+<section class="final">
+ <div class="big-heart">💗</div><h2>Chúc em luôn là phiên bản<br><em style="color:#f0448a">hạnh phúc nhất của chính mình.</em></h2>
+ <p>Hôm nay, ngày mai và cả những ngày bình thường nữa —<br>mong em luôn có thật nhiều lý do để mỉm cười.</p>
+ <button class="btn primary" onclick="bloom()">🌸 Thêm hoa, thêm yêu thương</button>
+</section>
+</main>
+<footer>Được làm bằng một chút màu hồng, rất nhiều hoa và thật nhiều thương yêu. ♡</footer>
+<div class="toast" id="toast">🌸 Gửi đến em một cơn mưa yêu thương!</div>
+<script>
+const symbols=['🌸','💗','✨','🌷','💖','✿','♡','🌼'];
+const sparkleBox=document.getElementById('sparkles');
+for(let i=0;i<24;i++){const s=document.createElement('span');s.className='sparkle';s.textContent=symbols[Math.floor(Math.random()*symbols.length)];s.style.left=Math.random()*100+'%';s.style.fontSize=(12+Math.random()*18)+'px';s.style.animationDuration=(9+Math.random()*15)+'s';s.style.animationDelay=(-Math.random()*20)+'s';sparkleBox.appendChild(s)}
+function toggleSecret(){document.getElementById('secret').classList.toggle('show')}
+function bloom(){
+ for(let i=0;i<34;i++){const s=document.createElement('span');s.textContent=symbols[Math.floor(Math.random()*symbols.length)];s.style.cssText=`position:fixed;left:${Math.random()*100}vw;top:${20+Math.random()*70}vh;font-size:${18+Math.random()*25}px;pointer-events:none;z-index:20;transition:transform 1.8s ease,opacity 1.8s ease;opacity:1`;document.body.appendChild(s);requestAnimationFrame(()=>{s.style.transform=`translate(${(Math.random()-.5)*180}px,${-150-Math.random()*250}px) rotate(${Math.random()*360}deg)`;s.style.opacity='0'});setTimeout(()=>s.remove(),1900)}
+ const t=document.getElementById('toast');t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2400)
+}
+</script>
+</body>
+</html>
